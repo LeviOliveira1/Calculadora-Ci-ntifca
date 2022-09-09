@@ -1,0 +1,88 @@
+body{
+	background-color: rgb(230, 230, 230);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select:none;
+	-moz-user-select: none;
+	-ms-user-select:none ;
+	user-select: none;
+}
+.container-fluid{
+	margin-top: 3rem;
+}
+.col{
+	text-align: center;
+	font-size: 1.8rem;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgb(240, 240, 240);
+	cursor: default;
+}
+.col:hover{
+	background-color: rgb(210, 210, 210);
+}
+.col:active{
+	background-color: rgb(190, 190, 190);
+}
+.funct-1,.funct-2{
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	font-weight: 500;
+	cursor: default;
+}
+.funct-1,.funct-2:hover{
+	background-color: rgb(35, 20, 161);
+}
+.funct-1,.funct-2:active{
+	background-color: rgb(130, 130, 130);
+}
+.numeros{
+	background-color: #000;
+	color: #fff;
+	font-weight: 500;
+	font-size: 30px;
+	padding-top: 23px;
+	padding-bottom: 15px;
+}
+.numeros:hover{
+	background-color:rgb(0, 0, 255);
+}
+.numeros:active{
+	background-color:rgb(255, 0, 0);
+}
+.resultado, .resultado2{
+	text-align: right;
+}
+.resultado > h1{
+	font-size: 70px;
+}
+.resultado2 > p{
+	font-size: 10px;
+	margin-bottom: -4px;
+}
+.cabecalho > div >h3{
+	font-weight: 400;
+	font-size: 25px;
+	margin: 5px;
+}
+.cabecalho > div >h4{
+	font-weight: 500;
+	font-size: 18px;
+	margin: 5px;
+}
+
+#div-historico, #div-memoria{
+	text-align: right;
+}
+#his{
+	border-bottom: 3px solid red;
+	text-align: center;
+	
+}
+
